@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "preserve",
+    "jsxImportSource": "vue",
+    "lib": ["ESNext", "DOM"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noImplicitThis": true,
+    "outDir": "./public/build/assets",
+    "paths": {
+      "@/*": ["frontend/*"]
+    },
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "verbatimModuleSyntax": true
+  },
+  "exclude": ["node_modules", "public"],
+  "include": [
+    "app/frontend/**/*.ts",
+    "app/frontend/**/*.d.ts",
+    "app/frontend/**/*.vue"
+  ],
+  "typeRoots": ["./node_modules/@types", "./app/frontend/types"]
+}
