@@ -15,7 +15,7 @@ gem "puma", ">= 5.0"
 
 gem "vite_rails", "~> 3.0"
 
-gem "inertia_rails", "~> 3.2"
+gem "inertia_rails", "~> 3.5"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
